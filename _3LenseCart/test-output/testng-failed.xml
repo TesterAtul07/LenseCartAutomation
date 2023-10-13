@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="EdgeTest2(failed)">
+    <parameter name="browser" value="microsoftEdge"/>
+    <classes>
+      <class name="_3LenseCart.Test_1">
+        <methods>
+          <include name="clearingObject"/>
+          <include name="selectTargetProduct"/>
+          <include name="creatingPOMObject"/>
+          <include name="launchBrowser"/>
+          <include name="testTestment"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowsersCode"/>
+        </methods>
+      </class> <!-- _3LenseCart.Test_1 -->
+    </classes>
+  </test> <!-- EdgeTest2(failed) -->
+  <test thread-count="2" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="_3LenseCart.Test_1">
+        <methods>
+          <include name="clearingObject"/>
+          <include name="selectTargetProduct"/>
+          <include name="creatingPOMObject"/>
+          <include name="launchBrowser"/>
+          <include name="testTestment"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowsersCode"/>
+        </methods>
+      </class> <!-- _3LenseCart.Test_1 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
